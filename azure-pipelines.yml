@@ -12,11 +12,6 @@ steps:
   inputs:
     versionSpec: 12.19.0
 
-- task: npmAuthenticate@0
-  displayName: 'npm authenticate'
-  inputs:
-    workingFile: .npmrc
-
 - task: Npm@1
   displayName: 'npm install'
   inputs:
